@@ -1,6 +1,10 @@
 Easy to run, only need ``python qwen-chatbot``
 
 It realizes short-term memory by save history conversations. (prompt-level)
+``# 更新对话历史 维持记忆
+  chat_history.append({"role": "user", "content": user_input})
+  chat_history.append({"role": "assistant", "content": response})
+``
 
 Output:
 ![1](https://github.com/user-attachments/assets/ddc858c7-b403-4234-bbd3-0a55e6db23fd)
